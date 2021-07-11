@@ -3,8 +3,9 @@
 # e mostre o comprimento da hipotenusa
 
 
-from math import sqrt,pow
+from math import hypot
 catetoOposto = float(input("Comprimento do cateto oposto: "))
 catetoAdjacente = float(input("Comprimento do cateto adjacente: "))
-hipotenusa = sqrt(pow(catetoOposto,2)+pow(catetoAdjacente,2))
+#hipotenusa = sqrt(pow(catetoOposto,2)+pow(catetoAdjacente,2))
+hipotenusa = hypot(catetoOposto,catetoAdjacente)
 print("A hipotenusa mede: {:.2f}".format(hipotenusa))
