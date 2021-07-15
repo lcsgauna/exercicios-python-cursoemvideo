@@ -1,3 +1,8 @@
+# Faça um programa que leia algo pelo teclado e mostre
+# na tela o seu tipo primitivo e todas as informações
+# possiveis sobre ele
+
+
 valor = input("Digite algo: ")
 print("O tipo primitivo desse valor é: {}".format(type(valor)))
 print("Só tem espaços? {}".format(valor.isspace()))
