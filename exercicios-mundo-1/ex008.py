@@ -1,3 +1,6 @@
+# Escreva um programa que leia um valor em metros e o exiba
+# convertido em centimetors e milimetros
+
 medidaEmMetros = float(input("Uma distância em metros: "))
 medidaEmKm = medidaEmMetros / 1000
 medidaEmHm = medidaEmMetros / 100
