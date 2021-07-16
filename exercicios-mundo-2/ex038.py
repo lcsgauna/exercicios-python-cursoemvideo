@@ -12,4 +12,4 @@ if primeiroNumero>segundoNumero:
 elif segundoNumero>primeiroNumero:
     print("O segundo valor é maior")
 else: 
-    print("Os dois valores são iguais")
+    print("Os dois valores são iguais")  
