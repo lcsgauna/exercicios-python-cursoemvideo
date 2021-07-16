@@ -11,7 +11,7 @@ print("""Escolha uma das bases para conversão:
 opcao = int(input("Sua opção: "))
 
 if opcao == 1:
-    binario = bin(valorDecimal)
+    binario = bin(valorDecimal)  
     print("Você selecionou a opção {} o valor decimal {} em binário é {}".format(opcao,valorDecimal,binario[2:]))
 elif opcao == 2:
     octal = oct(valorDecimal)
