@@ -8,7 +8,7 @@ valorImovel = float(input("Qual o valor do imóvel? R$"))
 valorSalario = float(input("Salário do comprador: R$"))
 anos = int(input("Quantos anos de financiamento "))
 
-parteSalario = valorSalario * (30/100)
+parteSalario = valorSalario * (30/100)  
 valorParcelas = valorImovel/(anos*12)
 
 print("30% do salario {}".format(parteSalario))
