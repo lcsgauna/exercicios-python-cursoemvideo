@@ -22,11 +22,7 @@ if jogada_do_usuario >= 0 and jogada_do_usuario <= 2:
     print("Jogador jogou {}".format(opcoes_de_jogada[jogada_do_usuario]))
     print('-='*11)
 
-    if opcoes_de_jogada[jogada_do_computador] == 'Pedra' and opcoes_de_jogada[jogada_do_usuario] == 'Papel':
-        print("Jogador venceu")
-    elif opcoes_de_jogada[jogada_do_computador] == 'Papel' and opcoes_de_jogada[jogada_do_usuario] == 'Tesoura':
-        print("Jogador Venceu")
-    elif opcoes_de_jogada[jogada_do_computador] == 'Tesoura' and opcoes_de_jogada[jogada_do_usuario] == 'Pedra':
+    if opcoes_de_jogada[jogada_do_computador] == 'Pedra' and opcoes_de_jogada[jogada_do_usuario] == 'Papel' or opcoes_de_jogada[jogada_do_computador] == 'Papel' and opcoes_de_jogada[jogada_do_usuario] == 'Tesoura' or opcoes_de_jogada[jogada_do_computador] == 'Tesoura' and opcoes_de_jogada[jogada_do_usuario] == 'Pedra':
         print("Jogador Venceu")
     elif opcoes_de_jogada[jogada_do_computador] == opcoes_de_jogada[jogada_do_usuario]:
         print("Empatou")
