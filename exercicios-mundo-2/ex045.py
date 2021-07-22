@@ -10,7 +10,7 @@ jogada_do_usuario = int(input("""Suas opções:
 jogada_do_computador = randint(0, 2)
 opcoes_de_jogada = ['Pedra', 'Papel', 'Tesoura']
 
-if jogada_do_usuario == 0 or jogada_do_usuario == 1 or jogada_do_usuario == 2:
+if jogada_do_usuario >= 0 and jogada_do_usuario <= 2:
     print("JO")
     sleep(1)
     print("Ken")
