@@ -4,7 +4,7 @@
 
 primeiro_termo = int(input("Informe o primeiro termo: "))
 razao = int(input("Informe a razão da progressão aritmética: "))
-ultimo_termo = primeiro_termo+10
+decimo_termo = primeiro_termo + (10-1)*razao
 
-for progressao_aritmetica in range(primeiro_termo,ultimo_termo,razao):
+for progressao_aritmetica in range(primeiro_termo,decimo_termo+razao,razao):
     print(progressao_aritmetica)
